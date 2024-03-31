@@ -127,6 +127,12 @@ h6 {
   padding: 10px 0;
 }
 
+#header.header-bg {
+  background: rgba(21, 34, 43, 0.85);
+  padding: 0;
+
+}
+
 #header .logo {
   font-size: 32px;
   margin: 0;
