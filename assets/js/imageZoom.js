@@ -248,8 +248,8 @@ window.requestAnimFrame = (function(){
         cofx = sx / sw;
         cofy = sy / sh;
   
-        lw = mw / cofx;
-        lh = mh / cofy;
+        lw = mw / cofx/2/2;
+        lh = mh / cofy/2/2;
         lensShape();
         set_lens(x, y);
   
@@ -358,8 +358,8 @@ window.requestAnimFrame = (function(){
         }
   
         //Correct source position
-        stop -= source.outerHeight() / 2;
-        sleft -= source.outerWidth() / 2;
+        stop -= source.outerHeight() / 16;
+        sleft -= source.outerWidth() / 16;
   
         if (current.options.position.substr(0,1) == '#') xzoomID = $(current.options.position); else xzoomID.length = 0;
         if (xzoomID.length == 0 && current.options.position != 'inside' && current.options.position!= 'fullscreen') {
