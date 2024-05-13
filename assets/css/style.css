@@ -1686,26 +1686,52 @@ section {
 }
 
 
-/* ------adding zoom image css------- */
-.img-div-container{
-  width: 50rem;
-  height: 50rem;
-  display: flex !important;
+.why-us-text{
+  width: 50%;
 }
-.img-container {
-  position: relative;
+.why-us-container{
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.why-us-icon{
+  padding-left: 8rem;
+}
+.why-us-image{
+  width: 40rem;
+  height: 25rem;
+  border-radius: 3%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .why-us-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+
+  .why-us-container{
+   flex-direction: column;
+   flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  .why-us-icon{
+    padding-left: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .why-us-image{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 95vw;
+    height: auto;
+    border-radius: 3%;
+    margin-top: 1rem;
+  }
   
+
 }
 
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  width: 60px;
-  height: 60px;
-}
-
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  width: 300px;
-  height: 300px;
-}
