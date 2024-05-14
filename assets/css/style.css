@@ -1693,6 +1693,7 @@ section {
 
 .why-us-text{
   width: 50%;
+  
 }
 .why-us-container{
   display: flex;
@@ -1704,7 +1705,7 @@ section {
   padding-left: 8rem;
 }
 .why-us-image{
-  width: 40rem;
+  width: 30rem;
   height: 25rem;
   border-radius: 3%;
   margin-top: 1rem;
