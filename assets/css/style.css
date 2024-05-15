@@ -886,16 +886,15 @@ section {
   padding-right: 15px;
   font-size: 48px;
 }
-.active-nav-tab{
-  border: 1px solid #b5ccdb;
-  padding: 15px;
-  transition: 0.3s;
-  color: #ff4a17;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.active-nav-link {
+  position: relative;
 }
+
+.active-nav-link span {
+  border-bottom: 3px solid #ff4a17;
+  padding-bottom: 2px; /* Optional: Adjust padding to control spacing */
+}
+
 
 .features .nav-link h4 {
   font-size: 18px;
