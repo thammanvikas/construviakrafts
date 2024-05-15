@@ -418,6 +418,10 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+.navbar ul .dropdown > a {
+  
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -833,12 +837,16 @@ section {
 --------------------------------------------------------------*/
 .clients {
   background: #f0f4f8;
-  padding: 15px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .clients img {
-  max-width: 45%;
+  width: 10rem;
+   gap: 5px;
+  border-radius: 20px;
+  height: 12rem;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -878,6 +886,15 @@ section {
   padding-right: 15px;
   font-size: 48px;
 }
+.active-nav-link {
+  position: relative;
+}
+
+.active-nav-link span {
+  border-bottom: 3px solid #ff4a17;
+  padding-bottom: 2px; /* Optional: Adjust padding to control spacing */
+}
+
 
 .features .nav-link h4 {
   font-size: 18px;
@@ -1074,6 +1091,12 @@ section {
   margin-top: 20px;
   position: relative;
 }
+.mobile-img img {
+  width: 100vh;
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 30vh;
+}
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
@@ -1217,6 +1240,17 @@ section {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(21, 34, 43, 0.08);
 }
+.portfolio-details-slider{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .portfolio-details-slider{
+    display: block;
+    width: 98%;
+    overflow-x: visible ;
+  }
+}
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -1349,9 +1383,17 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
+  
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
+}
+.info-box{
+  padding: 2px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact .info-box i {
@@ -1668,3 +1710,102 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+
+.why-us-text{
+  width: 50%;
+  
+}
+.why-us-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  
+}
+.why-us-icon{
+  padding-left: 8rem;
+}
+.why-us-image{
+  width: fit-content;
+  height: 30rem;
+  border-radius: 3%;
+ 
+  
+  margin-top: 1rem;
+}
+.nwfc-icon{
+  width: 27rem;
+  height: 27rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+}
+.choose-nwfc-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+}
+.contact-container{
+  display: flex;
+}
+
+.contact-links {
+  position: fixed;
+  bottom: 20px; /* Adjust distance from bottom as needed */
+  left: 20px; /* Adjust distance from left as needed */
+  display: flex;
+}
+
+.call-link{
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .contact-container{
+    display: grid;
+  }
+  .nwfc-icon{
+    height: 400px;
+    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 1rem;
+  }
+
+  .why-us-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    
+  }
+
+  .why-us-container{
+   flex-direction: column;
+   flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  .why-us-icon{
+    padding-left: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .why-us-image{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 95vw;
+    height: auto;
+    border-radius: 3%;
+    margin-top: 1rem;
+  }
+  
+
+}
+

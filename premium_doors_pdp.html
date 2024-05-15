@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -27,6 +29,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/imagezoom.css" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <!-- =======================================================
   * Template Name: Dewi
@@ -42,33 +47,42 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-bg">
     <div class="container d-flex align-items-center justify-content-between">
-  
-      <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
         <a href="index.html">CK</a>
-    </div>
-      <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-  
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-        <li><a class="nav-link scrollto" href="#about">About</a></li>
-        <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="designer_fans_pdp.html">Designer Fans</a></li>
-            <li><a href="premium_doors_pdp.html">Premium Doors</a></li>
-            <li><a href="vent_pdp.html">Air Ventilation Systems</a></li>
-            <li><a href="green_kitchen_pdp.html">Green Kitchen Systems</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
-        <li><a class="nav-link scrollto" href="#team">Team</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        <li><a class="getstarted scrollto" href="#about">Get Quote</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-  
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
+          <li class="dropdown">
+            <a class="active" href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="designer_fans_pdp.html">Fans</a></li>
+              <li><a href="green_kitchen_pdp.html">Green Kitchen Systems</a></li>
+              <li><a href="vent_pdp.html">Air Ventilation Systems</a></li>
+              <li><a href="premium_doors_pdp.html">Premium Doors</a></li>
+              <li><a href="fire_sheild_plywood.html">Fire Sheild Plywood</a></li>
+              <li><a href="aluminium_doors_and_widows.html">Aluminium Doors & Windows</a></li>
+              <li><a href="upvc_doors_windows.html">UPVC Doors & Windows</a></li>
+              <li><a href="modular_kitchen.html">Modular Kitchens</a></li>
+              <li><a href="louvers.html">Louvers</a></li>
+              <li><a href="internal_partition.html">Internal Partition</a></li>
+              <li><a href="acp_hpl.html">ACP & HPL</a></li>
+              <li><a href="nwfc_frame.html">WPC/PVC/NWFC/ Board & Frames</a></li>
+              <li><a href="wpc_flooring.html">WPC Flooring</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="/index.html#portfolio">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="/index.html#whyus">Why Us</a></li>
+          <li><a class="nav-link scrollto" href="/index.html#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="/index.html#form">Get Quote</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
   </header><!-- End Header -->
 
@@ -79,7 +93,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Premium Doors Details</h2>
+          <h2>Premium Doors Details </h2>
           <ol>
             <li><a href="index.html">Home</a></li>
             <li>Premium Doors Details</li>
@@ -93,11 +107,19 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row gy-4">
-
+        <div class="row gy-4 sec-container">
+          
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
+
+
+                <div class="swiper-slide mobile-img">
+                  <img src="assets/img/pdp/premiumdoors/pd_pdp1.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide mobile-img">
+                  <img src="assets/img/pdp/premiumdoors/pd_pdp2.jpeg" alt="">
 
                 <div class="swiper-slide">
                   <img src="assets/img/pdp/premiumdoors/pd_pdp1.jpg" alt="">
@@ -113,16 +135,55 @@
 
                 <div class="swiper-slide">
                   <img src="assets/img/pdp/premiumdoors/pd_pdp4.jpg" alt="">
+
                 </div>
 
               </div>
               <div class="swiper-pagination"></div>
             </div>
+            
+            <div class="main-xzoom">
+              <img class="xzoom" src="./assets/img/pdp/premiumdoors/pd_pdp1.jpeg" width="600" height="400"
+                xoriginal="./assets/img/pdp/premiumdoors/pd_pdp1.jpeg" />
+
+              <div class="xzoom-thumbs">
+                <a href="./assets/img/pdp/premiumdoors/pd_pdp1.jpeg">
+                  <img class="xzoom-gallery" width="70" height="60" src="./assets/img/pdp/premiumdoors/pd_pdp1.jpeg"
+                    xpreview="./assets/img/pdp/premiumdoors/pd_pdp1.jpeg">
+                </a>
+                <a href="./assets/img/pdp/premiumdoors/pd_pdp2.jpeg">
+                  <img class="xzoom-gallery" width="70" height="60" src="./assets/img/pdp/premiumdoors/pd_pdp2.jpeg">
+                </a>
+                <a href="./assets/img/pdp/greenkitchen/gk_pdp3.jpeg">
+                  <img class="xzoom-gallery" width="70" height="60" src="./assets/img/pdp/greenkitchen/gk_pdp3.jpeg">
+                </a>
+
+              </div>
+            </div>
+            <div class="contact-container mt-5 " style=" display: flex;">
+              <div style="box-shadow: 10px 10px 10px rgba(0,0,0,0.1);"
+                class="col-md-5 mt-5 d-flex justify-content-center align-items-center">
+                <div class="info-box">
+                  <i class="bx bx-envelope mt-2" style="font-size: 24px; color: purple;"></i>
+                  <h3 class="mt-2 serif" style="font-weight: 600;">Call Us</h3>
+                  <p>+91 8872148721</p>
+                </div>
+              </div>
+              <div style="box-shadow: 10px 10px 10px rgba(0,0,0,0.1);"
+                class="col-md-5 d-flex justify-content-center align-items-center">
+                <div class="info-box">
+                  <i class="bi bi-whatsapp mt-2 " style="color : green; font-size: 24px;"></i>
+                  <h3 class="mt-2 serif">WhatsApp Us</h3>
+
+                  <a href="https://wa.me/918872148721" target="_blank">Chat on WhatsApp</a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Product information</h3>
+              <h3>Product Information</h3>
               <ul>
                 <li><strong>Category</strong>: Doors & Windows</li>
                 <li><strong>Available date</strong>: 01 March, 2020</li>
@@ -132,13 +193,22 @@
             <div class="portfolio-description">
               <h2>Premium Doors</h2>
               <p>
+
+                Construvia Krafts takes pride in offering premium doors that blend exquisite craftsmanship with
+                unmatched durability and functionality. Our collection encompasses a wide range of door styles,
+                including solid wood, composite, and engineered options, each meticulously crafted to elevate the
+                aesthetics of any space while meeting the highest standards of performance. Whether you seek timeless
+                elegance, modern sophistication, or rustic charm, our premium doors are designed to suit diverse
+                architectural styles and design preferences. With a focus on quality materials and precise construction,
+                Construvia Krafts ensures that every door delivers exceptional durability, security, and aesthetic
+                appeal, making them the perfect choice for discerning homeowners and designers alike.
+
                 Elevate your home with exquisite doors from Construvia Krafts.
                 We combine timeless design with unmatched functionality to create premium doors that will leave a lasting impression. Our diverse collection boasts a variety of styles - from the rich warmth of solid wood to the sleek innovation of composite and engineered options. Each door is meticulously crafted to not only enhance the look of your space but also meet the most rigorous standards of performance.
                 Whether you crave the enduring elegance of classic styles, the clean lines of modern design, or the rustic charm of natural textures, Construvia Krafts has the perfect door to complement your architectural vision.
                 Our commitment to using only the finest materials and employing precise construction methods ensures exceptional durability, security, and lasting beauty in every door.  This makes Construvia Krafts doors the ideal choice for discerning homeowners and design professionals alike.
+
               </p>
-            
-           
             </div>
           </div>
 
@@ -157,7 +227,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Dewi</h3>
+              <h3>Construvia Krafts</h3>
               <p>
                 252-A, Rishi Nagar, Opp. HDFC BANK <br>
                 Ludhiana - 141002<br><br>
@@ -209,9 +279,26 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+  <div class="contact-links">
+    <a href="tel:+918872148721" class="whatsapp-chat-link d-flex align-items-center justify-content-center" target="_blank">
+        
+        <img
+            src="https://cdn-icons-png.flaticon.com/256/455/455705.png"
+            width="50"
+        />
+
+    </a>
+    <a href="https://wa.me/918872148721" class="call-link d-flex align-items-center justify-content-center" target="_blank">
+        <img
+            src="https://cdn-icons-png.flaticon.com/256/3670/3670051.png"
+            width="50"
+        />
+    </a>
+</div>
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -224,6 +311,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/imageZoom.js"></script>
+  <script>$(".xzoom, .xzoom-gallery").xzoom({ tint: '#333', Xoffset: 15 });</script>
 
 </body>
 
