@@ -418,6 +418,12 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+.navbar ul .dropdown > a:hover, 
+.navbar ul .dropdown > a .active:hover, 
+.navbar ul .dropdown > a:hover>a{
+  color: #ff4a17;
+} 
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1723,6 +1729,23 @@ section {
 .contact-container{
   display: flex;
 }
+
+.contact-links {
+  position: fixed;
+  bottom: 20px; /* Adjust distance from bottom as needed */
+  left: 20px; /* Adjust distance from left as needed */
+  display: flex;
+}
+
+.call-link{
+  padding-left: 10px;
+}
+
+
+
+
+
+
 
 
 @media (max-width: 768px) {
