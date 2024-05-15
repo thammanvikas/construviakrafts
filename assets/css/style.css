@@ -418,11 +418,9 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-.navbar ul .dropdown > a:hover, 
-.navbar ul .dropdown > a .active:hover, 
-.navbar ul .dropdown > a:hover>a{
-  color: #ff4a17;
-} 
+.navbar ul .dropdown > a {
+  
+}
 
 
 /*--------------------------------------------------------------
@@ -1703,7 +1701,8 @@ section {
 }
 .why-us-container{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -1711,9 +1710,11 @@ section {
   padding-left: 8rem;
 }
 .why-us-image{
-  width: 30rem;
+  width: fit-content;
   height: 25rem;
   border-radius: 3%;
+ 
+  
   margin-top: 1rem;
 }
 .nwfc-icon{
