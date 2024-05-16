@@ -1014,6 +1014,10 @@ section {
   background-size: cover;
   position: relative;
 }
+#header .logo a {
+  font-size: 28px;
+  font-weight: 600;
+}
 
 .testimonials::before {
   content: "";
