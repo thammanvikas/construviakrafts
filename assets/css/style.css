@@ -887,12 +887,15 @@ section {
   font-size: 48px;
 }
 .active-nav-link {
+  color: #ff4a17 !important;
   position: relative;
+  
 }
 
 .active-nav-link{
   border-bottom: 3px solid #ff4a17;
   padding-bottom: 2px; 
+  color: #18d26e;
 }
 
 
