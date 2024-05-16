@@ -1753,17 +1753,19 @@ section {
 .contact-links {
   position: fixed;
   bottom: 20px; /* Adjust distance from bottom as needed */
-  left: 20px; /* Adjust distance from left as needed */
+  right: 20px; /* Align to the right side */
   display: flex;
+  flex-direction: column; /* Align items vertically */
 }
 
-.call-link{
-  padding-left: 30px;
+.call-link {
+  margin-top: 10px; /* Adjust spacing between icons as needed */
 }
 
 .main-xzoom{
   display: block;
 }
+
 
 
 
