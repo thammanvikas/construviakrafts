@@ -1761,7 +1761,9 @@ section {
   padding-left: 30px;
 }
 
-
+.main-xzoom{
+  display: block;
+}
 
 
 
@@ -1769,6 +1771,10 @@ section {
 
 
 @media (max-width: 768px) {
+  .main-xzoom{
+    display: none;
+  }
+  
   .contact-container{
     display: grid;
   }
