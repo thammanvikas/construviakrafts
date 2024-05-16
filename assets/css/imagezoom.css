@@ -22,8 +22,9 @@
   display: flex;
 }
 
+
 .xzoom { 
-  width: 42rem;
+  width: 70%;
   height: 25rem;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
