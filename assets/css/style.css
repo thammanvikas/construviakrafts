@@ -887,12 +887,15 @@ section {
   font-size: 48px;
 }
 .active-nav-link {
+  color: #ff4a17 !important;
   position: relative;
+  
 }
 
 .active-nav-link{
   border-bottom: 3px solid #ff4a17;
   padding-bottom: 2px; 
+  color: #18d26e;
 }
 
 
@@ -1750,14 +1753,18 @@ section {
 .contact-links {
   position: fixed;
   bottom: 20px; /* Adjust distance from bottom as needed */
-  left: 20px; /* Adjust distance from left as needed */
+  right: 20px; /* Align to the right side */
   display: flex;
+  flex-direction: column; /* Align items vertically */
 }
 
-.call-link{
-  padding-left: 30px;
+.call-link {
+  margin-top: 10px; /* Adjust spacing between icons as needed */
 }
 
+.main-xzoom{
+  display: block;
+}
 
 
 
@@ -1766,8 +1773,12 @@ section {
 
 
 @media (max-width: 768px) {
+  .main-xzoom{
+    display: none;
+  }
+  
   .contact-container{
-    display: grid;
+    display: none;
   }
   .nwfc-icon{
     height: 400px;

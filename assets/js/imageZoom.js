@@ -249,8 +249,10 @@ function detect_old_ie() {
       cofx = sx / sw;
       cofy = sy / sh;
 
-      lw = mw / cofx/2;
-      lh = mh / cofy/2;
+      // lw = mw / cofx/2;
+      // lh = mh / cofy/2;
+      lw = 150;
+      lh = 120;
       lensShape();
       set_lens(x, y);
 
