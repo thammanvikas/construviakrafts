@@ -1778,7 +1778,7 @@ section {
   }
   
   .contact-container{
-    display: grid;
+    display: none;
   }
   .nwfc-icon{
     height: 400px;
