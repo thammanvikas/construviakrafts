@@ -134,6 +134,7 @@ h6 {
 }
 
 #header .logo {
+  
   font-size: 32px;
   margin: 0;
   padding: 0;
@@ -1098,6 +1099,7 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+  
 }
 
 .testimonials .swiper-pagination {
@@ -1262,6 +1264,10 @@ section {
     display: block;
     width: 98%;
     overflow-x: visible ;
+  }
+  #header .logo a {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
