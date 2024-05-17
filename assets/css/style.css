@@ -861,7 +861,7 @@ section {
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 100%;
   }
 }
 
@@ -1258,12 +1258,20 @@ section {
 .portfolio-details-slider{
   display: none;
 }
+.project-container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
 
 @media (max-width: 767px) {
   .portfolio-details-slider{
     display: block;
     width: 98%;
     overflow-x: visible ;
+  }
+  .project-container{
+    display: grid;
   }
   #header .logo a {
     font-size: 20px;
